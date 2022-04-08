@@ -11,6 +11,11 @@
 		25CA2DA927FFB26F008E789F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CA2DA827FFB26F008E789F /* ContentView.swift */; };
 		25CA2DAB27FFB270008E789F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25CA2DAA27FFB270008E789F /* Assets.xcassets */; };
 		25CA2DAE27FFB270008E789F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25CA2DAD27FFB270008E789F /* Preview Assets.xcassets */; };
+		25CA2DC027FFB497008E789F /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CA2DB727FFB497008E789F /* AudioPlayer.swift */; };
+		25CA2DC127FFB497008E789F /* SongDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CA2DB827FFB497008E789F /* SongDetailView.swift */; };
+		25CA2DC327FFB497008E789F /* SongDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CA2DBB27FFB497008E789F /* SongDownload.swift */; };
+		25CA2DC427FFB497008E789F /* MediaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CA2DBC27FFB497008E789F /* MediaResponse.swift */; };
+		25CA2DC727FFC6AF008E789F /* AllMyLife.json in Resources */ = {isa = PBXBuildFile; fileRef = 25CA2DC627FFC6AF008E789F /* AllMyLife.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		25CA2DA827FFB26F008E789F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		25CA2DAA27FFB270008E789F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25CA2DAD27FFB270008E789F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25CA2DB727FFB497008E789F /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		25CA2DB827FFB497008E789F /* SongDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongDetailView.swift; sourceTree = "<group>"; };
+		25CA2DBB27FFB497008E789F /* SongDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongDownload.swift; sourceTree = "<group>"; };
+		25CA2DBC27FFB497008E789F /* MediaResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaResponse.swift; sourceTree = "<group>"; };
+		25CA2DC627FFC6AF008E789F /* AllMyLife.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AllMyLife.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,9 @@
 		25CA2DA527FFB26F008E789F /* LuizClaro_Lab6 */ = {
 			isa = PBXGroup;
 			children = (
+				25CA2DC627FFC6AF008E789F /* AllMyLife.json */,
+				25CA2DBA27FFB497008E789F /* Model */,
+				25CA2DB627FFB497008E789F /* Views */,
 				25CA2DA627FFB26F008E789F /* LuizClaro_Lab6App.swift */,
 				25CA2DA827FFB26F008E789F /* ContentView.swift */,
 				25CA2DAA27FFB270008E789F /* Assets.xcassets */,
@@ -65,6 +78,24 @@
 				25CA2DAD27FFB270008E789F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25CA2DB627FFB497008E789F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25CA2DB727FFB497008E789F /* AudioPlayer.swift */,
+				25CA2DB827FFB497008E789F /* SongDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		25CA2DBA27FFB497008E789F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25CA2DBB27FFB497008E789F /* SongDownload.swift */,
+				25CA2DBC27FFB497008E789F /* MediaResponse.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25CA2DC727FFC6AF008E789F /* AllMyLife.json in Resources */,
 				25CA2DAE27FFB270008E789F /* Preview Assets.xcassets in Resources */,
 				25CA2DAB27FFB270008E789F /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +170,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				25CA2DA927FFB26F008E789F /* ContentView.swift in Sources */,
+				25CA2DC027FFB497008E789F /* AudioPlayer.swift in Sources */,
+				25CA2DC327FFB497008E789F /* SongDownload.swift in Sources */,
+				25CA2DC427FFB497008E789F /* MediaResponse.swift in Sources */,
 				25CA2DA727FFB26F008E789F /* LuizClaro_Lab6App.swift in Sources */,
+				25CA2DC127FFB497008E789F /* SongDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

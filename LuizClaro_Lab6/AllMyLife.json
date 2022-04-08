@@ -1,0 +1,11 @@
+
+
+
+{
+ "resultCount":1,
+ "results": [
+{"wrapperType":"track", "kind":"song", "artistId":6906197, "collectionId":538257183, "trackId":538257185, "artistName":"Foo Fighters", "collectionName":"One By One (Deluxe Edition)", "trackName":"All My Life", "collectionCensoredName":"One By One (Deluxe Edition)", "trackCensoredName":"All My Life", "artistViewUrl":"https://music.apple.com/us/artist/foo-fighters/6906197?uo=4", "collectionViewUrl":"https://music.apple.com/us/album/all-my-life/538257183?i=538257185&uo=4", "trackViewUrl":"https://music.apple.com/us/album/all-my-life/538257183?i=538257185&uo=4", 
+"previewUrl":"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/70/76/52/707652a4-2877-5883-44e5-fdcba577e695/mzaf_6680662479839614410.plus.aac.p.m4a", "artworkUrl30":"https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/dc/8a/d8/dc8ad8d7-4000-ae10-a7aa-975e6bc6752f/source/30x30bb.jpg", "artworkUrl60":"https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/dc/8a/d8/dc8ad8d7-4000-ae10-a7aa-975e6bc6752f/source/60x60bb.jpg", "artworkUrl100":"https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/dc/8a/d8/dc8ad8d7-4000-ae10-a7aa-975e6bc6752f/source/100x100bb.jpg", "collectionPrice":9.99, "trackPrice":1.29, "releaseDate":"2002-09-07T12:00:00Z", "collectionExplicitness":"notExplicit", "trackExplicitness":"notExplicit", "discCount":1, "discNumber":1, "trackCount":17, "trackNumber":1, "trackTimeMillis":263440, "country":"USA", "currency":"USD", "primaryGenreName":"Alternative", "isStreamable":true}]
+}
+
+
